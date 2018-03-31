@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.eattendance.studentlogin"
+    android:background="@drawable/roundback_black">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Student Panel"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125"
+        tools:layout_editor_absoluteX="120dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/round_back"
+        android:text="view profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/round_back"
+        android:onClick="viewAttendance"
+        android:text="view attendance"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644"
+        tools:layout_editor_absoluteX="8dp" />
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.projects.rinkesh.kakshaa.Login"
+    android:gravity="center"
+    android:background="@drawable/gradient_1">
+
+    <LinearLayout
+        android:id="@+id/credentials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50sp">
+
+        <TextView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kaksha"
+            android:gravity="center"
+            android:layout_marginBottom="40dp"
+            android:textSize="50sp"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25sp"
+            android:background="@drawable/materialbutton"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/username"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:contentDescription="@string/userimg"/>
+
+            <EditText
+                android:id="@+id/registrationno"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:paddingRight="10dp"
+                android:paddingEnd="10dp"
+                android:hint="@string/registration_no"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="15sp"
+                android:maxLength="15"
+                android:inputType="text"
+                android:fontFamily="serif"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/materialbutton">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/password"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:contentDescription="@string/pwdimg"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:paddingRight="10dp"
+                android:paddingEnd="10dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:hint="@string/password"
+                android:textColorHint="#fff"
+                android:textColor="#fff"
+                android:maxLength="16"
+                android:inputType="textPassword"
+                android:textSize="15sp"
+                android:fontFamily="serif"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/materialbutton"
+            android:text="Log In"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:elevation="5dp"
+            android:onClick="loginbtn"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

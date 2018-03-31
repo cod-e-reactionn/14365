@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary">
+
+            <TextView
+                android:id="@+id/headertext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/faculty"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ECEFF1"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_marginTop="20sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp"
+                    android:layout_marginEnd="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginStart="25sp"
+                    android:layout_marginRight="20sp"
+                    android:layout_marginTop="50sp"
+                    android:background="@drawable/sponsorshadow"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:paddingBottom="20dp"
+                        android:paddingTop="20dp"
+                        android:src="@drawable/timetable" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/titlesponsor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ribbon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="47sp"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:text="Dean"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_marginTop="50sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp"
+                    android:layout_marginEnd="20sp"
+                    android:layout_marginRight="20sp"
+                    android:layout_marginStart="25sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="50sp"
+                    android:background="@drawable/sponsorshadow"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:paddingBottom="20dp"
+                        android:paddingTop="20dp"
+                        android:src="@drawable/timetable" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/associatesponsor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ribbon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="47sp"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:text="HOD"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_marginTop="50sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp"
+                    android:layout_marginEnd="20sp"
+                    android:layout_marginRight="20sp"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginStart="25sp"
+                    android:layout_marginTop="50sp"
+                    android:background="@drawable/sponsorshadow"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:paddingBottom="20dp"
+                        android:paddingTop="20dp"
+                        android:src="@drawable/timetable" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/cosponsor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ribbon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="47sp"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:text="Class Incharge"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_marginBottom="20sp"
+                android:layout_marginTop="50sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp"
+                    android:layout_marginEnd="20sp"
+                    android:layout_marginRight="20sp"
+                    android:layout_marginStart="25sp"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginTop="50sp"
+                    android:background="@drawable/sponsorshadow"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:paddingEnd="20dp"
+                        android:paddingStart="20dp"
+                        android:paddingTop="20dp"
+                        android:src="@drawable/timetable" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/socialsponsor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ribbon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="47sp"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:text="Other Faculty"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+

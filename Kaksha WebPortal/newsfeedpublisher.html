@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<title>News Feeds</title>
+<head>
+
+
+ <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+
+	  <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <script type="text/javascript" src="js/materialize.min.js">
+        
+        $('#textarea1').val('New Text');
+  M.textareaAutoResize($('#textarea1'));
+      </script>
+    
+</head>
+<body>
+	 <!--JavaScript at end of body for optimized loading-->
+      
+      <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo right">Logo</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="newsfeedpublisher.html">Newsfeeds</a></li>
+        <li><a href="searchstudent.html">Search Student</a></li>
+      </ul>
+    </div>
+  </nav> 
+  <div class="row" style="width: 45%;">
+    
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1"  class="materialize-textarea"></textarea>
+          <label for="textarea1">News Feeds </label>
+        </div>
+      </div>
+      <input value="submit news" type="submit" id="submit" name="submit" onClick="submitClick()" ></button>
+    </form>
+  </div>
+
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCZEk6ae-lwN4nQ5hrh5EmFN84YOSUAjWs",
+    authDomain: "web-login-af73e.firebaseapp.com",
+    databaseURL: "https://web-login-af73e.firebaseio.com",
+    projectId: "web-login-af73e",
+    storageBucket: "web-login-af73e.appspot.com",
+    messagingSenderId: "196665620533"
+  };
+  firebase.initializeApp(config);
+
+
+</script>
+
+
+<script src="newsfeed.js"></script>
+
+
+</body>
+</html>

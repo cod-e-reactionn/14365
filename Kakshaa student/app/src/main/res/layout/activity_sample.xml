@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/app1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/meetdevsdialog"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/info1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="10sp"
+                    android:background="@drawable/dialogimg">
+
+                    <ImageView
+                        android:id="@+id/dp1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/username" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="10sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Haroon Rashid"
+                        android:textColor="#424242"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/age1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Secretary"
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+
+                    <TextView
+                        android:id="@+id/profession1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="secretary@aaruush.net"
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/college1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="9962744996"
+                        android:textColor="#4CAF50"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginTop="15sp"
+                    android:background="#bdc3c7" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/down1"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginTop="5sp"
+                    android:src="@drawable/down" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/app2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/app1"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/meetdevsdialog"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="10sp"
+                    android:background="@drawable/dialogimg">
+
+                    <ImageView
+                        android:id="@+id/dp2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/username" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="10sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Ranshu Anandan"
+                        android:textColor="#424242"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/age2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Join Secretary and PR"
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+
+                    <TextView
+                        android:id="@+id/profession2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="jointsecretary@aaruush.net"
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/college2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="7708519958"
+                        android:textColor="#4CAF50"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginTop="15sp"
+                    android:background="#bdc3c7" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/down2"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginTop="5sp"
+                    android:src="@drawable/down" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/app3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/app2"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/meetdevsdialog"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/info3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="10sp"
+                    android:background="@drawable/dialogimg">
+
+                    <ImageView
+                        android:id="@+id/dp3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/username" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="10sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Pranav Dhingra"
+                        android:textColor="#424242"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/age3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Corporate Strategy and Implementation "
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+
+                    <TextView
+                        android:id="@+id/profession3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="csi@aaruush.net"
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/college3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="9566161014"
+                        android:textColor="#4CAF50"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginTop="15sp"
+                    android:background="#bdc3c7" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/down3"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginTop="5sp"
+                    android:src="@drawable/down" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/app4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/app3"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/meetdevsdialog"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/info4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="10sp"
+                    android:background="@drawable/dialogimg">
+
+                    <ImageView
+                        android:id="@+id/dp4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/username" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="10sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Buggineni Nishanth"
+                        android:textColor="#424242"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/age4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Corporate Strategy and Implementation "
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+
+                    <TextView
+                        android:id="@+id/profession4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="csi@aaruush.net"
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/college4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="9600579880"
+                        android:textColor="#4CAF50"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginTop="15sp"
+                    android:background="#bdc3c7" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/down4"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginTop="5sp"
+                    android:src="@drawable/down" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/app5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/app4"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/meetdevsdialog"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/info5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="10sp"
+                    android:background="@drawable/dialogimg">
+
+                    <ImageView
+                        android:id="@+id/dp5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/username" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="10sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Dakshita Kumar"
+                        android:textColor="#424242"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/age5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Public Realtions"
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+
+                    <TextView
+                        android:id="@+id/profession5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="pr@aaruush.net"
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/college5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="7708870293"
+                        android:textColor="#4CAF50"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginTop="15sp"
+                    android:background="#bdc3c7" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/down5"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginTop="5sp"
+                    android:src="@drawable/down" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/app6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/app5"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/meetdevsdialog"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/info6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="10sp"
+                    android:background="@drawable/dialogimg">
+
+                    <ImageView
+                        android:id="@+id/dp6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/username" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="10sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Aashita Rajgopal Setlur"
+                        android:textColor="#424242"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/age6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Public Realtions"
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+
+                    <TextView
+                        android:id="@+id/profession6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="pr@aaruush.net"
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/college6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="9600579916"
+                        android:textColor="#4CAF50"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginTop="15sp"
+                    android:background="#bdc3c7" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/down6"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginTop="5sp"
+                    android:src="@drawable/down" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/app7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/app6"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/meetdevsdialog"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/info7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="10sp"
+                    android:background="@drawable/dialogimg">
+
+                    <ImageView
+                        android:id="@+id/dp7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/username" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="10sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Vivek Kumar"
+                        android:textColor="#424242"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/age7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Finance"
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+
+                    <TextView
+                        android:id="@+id/profession7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="finance@aaruush.net"
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/college7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="9962849905"
+                        android:textColor="#4CAF50"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginTop="15sp"
+                    android:background="#bdc3c7" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/down7"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginTop="5sp"
+                    android:src="@drawable/down" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/app8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/app7"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/meetdevsdialog"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/info8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="10sp"
+                    android:background="@drawable/dialogimg">
+
+                    <ImageView
+                        android:id="@+id/dp8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/username" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="10sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Muddana Saikumar"
+                        android:textColor="#424242"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/age8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Finance"
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+
+                    <TextView
+                        android:id="@+id/profession8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="finance@aaruush.net"
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/college8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="9494808888"
+                        android:textColor="#4CAF50"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginTop="15sp"
+                    android:background="#bdc3c7" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/down8"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginTop="5sp"
+                    android:src="@drawable/down" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/app9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/app8"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/meetdevsdialog"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/info9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="10sp"
+                    android:background="@drawable/dialogimg">
+
+                    <ImageView
+                        android:id="@+id/dp9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/username" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="10sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="G Sai Krishna"
+                        android:textColor="#424242"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/age9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Sponsorship and Marketing"
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+
+                    <TextView
+                        android:id="@+id/profession9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="sponsorship@aaruush.net"
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/college9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="8015417147"
+                        android:textColor="#4CAF50"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginTop="15sp"
+                    android:background="#bdc3c7" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/down9"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginTop="5sp"
+                    android:src="@drawable/down" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/app10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/app9"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/meetdevsdialog"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/info10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="10sp"
+                    android:background="@drawable/dialogimg">
+
+                    <ImageView
+                        android:id="@+id/dp10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/username" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="10sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Sai Pavan V"
+                        android:textColor="#424242"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/age10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Sponsorship and Marketing, Highlights"
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+
+                    <TextView
+                        android:id="@+id/profession10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="highlights@aaruush.net"
+                        android:textColor="#7f8c8d"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/college10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="5sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="8754173353"
+                        android:textColor="#4CAF50"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginTop="15sp"
+                    android:background="#bdc3c7" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/down10"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginTop="5sp"
+                    android:src="@drawable/down" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/app11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/app10"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/meetdevsdialog"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/info11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="10sp"
+                    android:background="@drawable/dialogimg">
+
+                    <ImageView
+                        android:id="@+id/dp11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/username" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

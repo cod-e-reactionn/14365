@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "913043199657",
+    "firebase_url": "https://kaaksha-a92b6.firebaseio.com",
+    "project_id": "kaaksha-a92b6",
+    "storage_bucket": "kaaksha-a92b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913043199657:android:05ce26753e9865e4",
+        "android_client_info": {
+          "package_name": "app.coderecationn.com.kaksha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913043199657-3h86kki4qa049evlc00pvhghskr6k09u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsFGnOH9blSmO0O-2vSCiASj_g0eC_3S0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

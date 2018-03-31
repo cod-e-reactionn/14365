@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Search</title>
+	 <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+</head>
+<body>
+	<!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+<nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo right">KAKSHA</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="newsfeedpublisher.html">Newsfeeds</a></li>
+        <li><a href="searchstudent.html">Search Student</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+      <div class="row" style="padding-top: 150px;padding-left: 450px; " align="center">
+    <form class="col s12" >
+      <div class="row">
+        <div class="input-field col s6" >
+          <input placeholder="Enter Adhaar-Number to search student info" id="adhar" type="text" class="validate" maxlength="12">
+          <label for="Adhaar-Number">Adhaar-Number</label>
+          <button type="clear" value="Search" onclick="document.getElementById('demo').style.display='block'">Search
+        </div>
+    </div>
+<p id="demo" style="display:none">User-Name: Siddharth<br>Full Name: Siddharth Mohite<br> Email: Siddharthmohite409@gmail.com <br>Gender: Male<br>Year:2 <br> Branch: CSE</p>
+</form>
+
+
+
+</body>
+</html>

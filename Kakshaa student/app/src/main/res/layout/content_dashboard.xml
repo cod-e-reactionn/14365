@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.projects.rinkesh.kakshaa.Dashboard"
+    tools:showIn="@layout/app_bar_dashboard"
+    android:background="@color/black">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/postlayout1"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/postback"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp">
+
+
+            <LinearLayout
+                android:id="@+id/updatestatus1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:src="@drawable/timetable"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_marginTop="10sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginStart="10sp"
+                    android:layout_gravity="center"
+                    android:hint="K.Meenakshi"
+                    android:textSize="15sp"
+                    android:fontFamily="serif"
+                    android:layout_marginTop="5dp"
+                    android:textColorHint="@color/colorAccent"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/post1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="An App for students to keep a track of their attendance and make sure they are they dont cross the limit of it."
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/timestamp1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Today - 30 Mar"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_menu_send"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginStart="150dp"
+                        android:layout_marginTop="15dp"/>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/like"
+                        android:layout_marginLeft="180dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="15dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/postlayout"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/postback"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp">
+
+
+                <LinearLayout
+                    android:id="@+id/updatestatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30sp"
+                        android:layout_height="30sp"
+                        android:src="@drawable/timetable"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginBottom="10sp"
+                        android:layout_marginTop="10sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginStart="10sp"
+                        android:layout_gravity="center"
+                        android:hint="K.Meenakshi"
+                        android:textSize="15sp"
+                        android:fontFamily="serif"
+                        android:layout_marginTop="5dp"
+                        android:textColorHint="@color/colorAccent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/post"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="An App for students to keep a track of their attendance and make sure they are they dont cross the limit of it."
+                        android:textColor="@color/black"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/timestamp2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Today - 30 Mar"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_menu_send"
+                            android:layout_marginLeft="150dp"
+                            android:layout_marginStart="150dp"
+                            android:layout_marginTop="15dp"/>
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/like"
+                            android:layout_marginLeft="180dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="15dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/postlayout2"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/postback"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp">
+
+
+                <LinearLayout
+                    android:id="@+id/updatestatus2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30sp"
+                        android:layout_height="30sp"
+                        android:src="@drawable/timetable"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginBottom="10sp"
+                        android:layout_marginTop="10sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginStart="10sp"
+                        android:layout_gravity="center"
+                        android:hint="K.Meenakshi"
+                        android:textSize="15sp"
+                        android:fontFamily="serif"
+                        android:layout_marginTop="5dp"
+                        android:textColorHint="@color/colorAccent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/post2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="An App for students to keep a track of their attendance and make sure they are they dont cross the limit of it."
+                        android:textColor="@color/black"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/timestamp3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Today - 30 Mar"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_menu_send"
+                            android:layout_marginLeft="150dp"
+                            android:layout_marginStart="150dp"
+                            android:layout_marginTop="15dp"/>
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/like"
+                            android:layout_marginLeft="180dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="15dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/postlayout3"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/postback"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp">
+
+
+                <LinearLayout
+                    android:id="@+id/updatestatus3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30sp"
+                        android:layout_height="30sp"
+                        android:src="@drawable/timetable"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginBottom="10sp"
+                        android:layout_marginTop="10sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginStart="10sp"
+                        android:layout_gravity="center"
+                        android:hint="K.Meenakshi"
+                        android:textSize="15sp"
+                        android:fontFamily="serif"
+                        android:layout_marginTop="5dp"
+                        android:textColorHint="@color/colorAccent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/post3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="An App for students to keep a track of their attendance and make sure they are they dont cross the limit of it."
+                        android:textColor="@color/black"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/timestamp4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Today - 30 Mar"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_menu_send"
+                            android:layout_marginLeft="150dp"
+                            android:layout_marginStart="150dp"
+                            android:layout_marginTop="15dp"/>
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/like"
+                            android:layout_marginLeft="180dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="15dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/postlayout4"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/postback"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp">
+
+
+                <LinearLayout
+                    android:id="@+id/updatestatus4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30sp"
+                        android:layout_height="30sp"
+                        android:src="@drawable/timetable"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginBottom="10sp"
+                        android:layout_marginTop="10sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginStart="10sp"
+                        android:layout_gravity="center"
+                        android:hint="K.Meenakshi"
+                        android:textSize="15sp"
+                        android:fontFamily="serif"
+                        android:layout_marginTop="5dp"
+                        android:textColorHint="@color/colorAccent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/post"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="An App for students to keep a track of their attendance and make sure they are they dont cross the limit of it."
+                        android:textColor="@color/black"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/timestamp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Today - 30 Mar"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_menu_send"
+                            android:layout_marginLeft="150dp"
+                            android:layout_marginStart="150dp"
+                            android:layout_marginTop="15dp"/>
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/like"
+                            android:layout_marginLeft="180dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="15dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
